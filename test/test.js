@@ -131,10 +131,10 @@ describe( 'compute-entropy', function tests() {
 	});
 
 	it( 'should compute the distribution entropy when provided a number', function test() {
-		assert.strictEqual( entropy( 0.2 ), 3.6096405 );
-		assert.strictEqual( entropy( 0.4  ), 2.4273765 );
-		assert.strictEqual( entropy( 0.6  ), 1.6182510 );
-		assert.strictEqual( entropy( 0.8  ), 0.9024101 );
+		assert.closeTo( entropy( 0.2 ), 3.6096405, 1e-5 );
+		assert.closeTo( entropy( 0.4  ), 2.4273765, 1e-5 );
+		assert.closeTo( entropy( 0.6  ), 1.6182510, 1e-5 );
+		assert.closeTo( entropy( 0.8  ), 0.9024101, 1e-5 );
 	});
 
 	it( 'should compute the distribution entropy when provided a plain array', function test() {

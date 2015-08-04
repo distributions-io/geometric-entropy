@@ -2,16 +2,16 @@ Entropy
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> [geometric](https://en.wikipedia.org/wiki/geometric_distribution) distribution [entropy](https://en.wikipedia.org/wiki/entropy).
+> [Geometric](https://en.wikipedia.org/wiki/geometric_distribution) distribution [entropy](https://en.wikipedia.org/wiki/entropy).
 
 The [entropy](https://en.wikipedia.org/wiki/entropy) for a [geometric](https://en.wikipedia.org/wiki/geometric_distribution) random variable is
 
-<div class="equation" align="center" data-raw-text="\operatorname{}\left[ X \right] = " data-equation="eq:entropy">
-	<img src="" alt="entropy for a geometric distribution.">
+<div class="equation" align="center" data-raw-text="H(X) = \mathrm{E}[\mathrm{I}(X)] = \frac{-(1-p)\log_2 (1-p) - p \log_2 p}{p}" data-equation="eq:entropy">
+	<img src="https://cdn.rawgit.com/distributions-io/geometric-entropy/82027a1fd570a2d5a17a00abc7f91cebb3789413/docs/img/eqn.svg" alt="Entropy for a geometric distribution.">
 	<br>
 </div>
 
-where `0 &lt;=p&lt;= 1` is the success probability.
+where `0 <= p <= 1` is the success probability.
 
 
 ## Installation
@@ -43,7 +43,7 @@ var matrix = require( 'dstructs-matrix' ),
 
 
 out = entropy( 0.2 );
-// returns ~3.6096405
+// returns ~3.609
 
 p = [ 0.2, 0.4, 0.6, 0.8 ];
 out = entropy( p );

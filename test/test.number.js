@@ -35,7 +35,8 @@ describe( 'number entropy', function tests() {
 	});
 
 	it( 'should return `NaN` for invalid values of parameter p', function test() {
-		assert.isTrue( isnan( mean( -1 ) ) );
+		assert.isTrue( isnan( entropy( -1 ) ) );
+		assert.isTrue( isnan( entropy( 1.1 ) ) );
 	});
 
 });
