@@ -178,7 +178,7 @@ bool = ( mat === out );
 
 ## Notes
 
-*	If an element is __not__ a number on the interval [0,1], the [expected value](https://en.wikipedia.org/wiki/Expected_value) is `NaN`.
+*	If an element is __not__ a number on the interval [0,1], the [entropy](https://en.wikipedia.org/wiki/entropy) is `NaN`.
 
 	``` javascript
 	var p, out;
