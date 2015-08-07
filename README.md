@@ -50,7 +50,7 @@ out = entropy( p );
 
 // returns [ ~3.610, ~2.427, ~1.618, ~0.902 ]
 
-p = new Float32ArrayArray( p );
+p = new Float32Array( p );
 out = entropy( p );
 // returns Float64Array( [~3.610,~2.427,~1.618,~0.902] )
 

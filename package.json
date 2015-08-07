@@ -1,7 +1,7 @@
 {
   "name": "distributions-geometric-entropy",
   "version": "0.0.0",
-  "description": "geometric distribution mean.",
+  "description": "Geometric distribution entropy.",
   "author": {
     "name": "Philipp Burckhardt",
     "email": "pburckhardt@outlook.com"
@@ -28,9 +28,10 @@
     "probability",
     "statistics",
     "stats",
-    "expected value",
-    "expectation",
-    "mean"
+    "information theory",
+    "randomness",
+    "information",
+    "compression"
   ],
   "bugs": {
     "url": "https://github.com/compute-io/geometric-entropy/issues"
@@ -39,7 +40,7 @@
     "compute-array-constructors": "^1.0.0",
     "dstructs-matrix": "^2.0.0",
     "utils-deep-get": "^1.0.0",
-    "utils-deep-set": "^1.0.1", 
+    "utils-deep-set": "^1.0.1",
     "validate.io-number-primitive": "^1.0.0",
     "validate.io-nonnegative-integer": "^1.0.0",
     "validate.io-string-primitive": "^1.0.0",
