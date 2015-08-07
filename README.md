@@ -56,13 +56,13 @@ out = entropy( p );
 
 p =  matrix( [ 0.2, 0.4, 0.6, 0.8 ], [2,2] );
 /*
-	[ 0.2 0.4,
+	[ 0.2 0.4
 	  0.6 0.8 ]
 */
 
 out = entropy( p );
 /*
-	[ ~3.610 ~2.427,
+	[ ~3.610 ~2.427
 	  ~1.618 ~0.902 ]
 */
 ```
@@ -159,7 +159,7 @@ bool = ( data === out );
 
 mat = matrix( [ 0.2, 0.4, 0.6, 0.8 ], [2,2] );
 /*
-	[ 0.2 0.4,
+	[ 0.2 0.4
 	  0.6 0.8 ]
 */
 
@@ -167,7 +167,7 @@ out = entropy( mat, {
 	'copy': false
 });
 /*
-	[ ~3.610 ~2.427,
+	[ ~3.610 ~2.427
 	  ~1.618 ~0.902 ]
 */
 
@@ -178,7 +178,7 @@ bool = ( mat === out );
 
 ## Notes
 
-*	If an element is __not__ a number on the interval [0,1], the [expected value](https://en.wikipedia.org/wiki/Expected_value) is `NaN`.
+*	If an element is __not__ a number on the interval [0,1], the [entropy](https://en.wikipedia.org/wiki/entropy) is `NaN`.
 
 	``` javascript
 	var p, out;
