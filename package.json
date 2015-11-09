@@ -20,7 +20,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compute-io/geometric-entropy.git"
+    "url": "git://github.com/distributions-io/geometric-entropy.git"
   },
   "keywords": [
     "distributions.io",
@@ -34,7 +34,7 @@
     "compression"
   ],
   "bugs": {
-    "url": "https://github.com/compute-io/geometric-entropy/issues"
+    "url": "https://github.com/distributions-io/geometric-entropy/issues"
   },
   "dependencies": {
     "compute-array-constructors": "^1.0.0",
